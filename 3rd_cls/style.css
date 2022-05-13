@@ -1,0 +1,15 @@
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.outer {
+    background-color: rgb(122, 122, 122);
+}
+
+.inner {
+    background-color: blanchedalmond;
+    transform: scale(0.75) rotate(36deg);
+}

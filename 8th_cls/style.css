@@ -1,0 +1,26 @@
+.calander ul {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+}
+
+.calander h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0090c9;
+}
+
+.calander li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 2em;
+    height: 100px;
+    background-color: lightslategray;
+}
+
+.other-month {
+    background-color: lightblue !important;
+}
